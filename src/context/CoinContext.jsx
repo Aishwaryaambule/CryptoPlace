@@ -1,6 +1,6 @@
-import { createContext, useEffect, useState, } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
-export const CoinContext = createContext
+export const CoinContext = createContext();
 
 const CoinContextProvider = (props) => {
 
